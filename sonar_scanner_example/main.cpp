@@ -14,6 +14,7 @@ int main(int argc, char* argv[]) {
   } else {
   	cout << num << " arguments provided\n";
   }
+  // sonar-resolve cpp:S4962 "just because I can"
   if (argv != 0) {
   	cout << "argv not null\n";; // intentional extra-semicolon
   }
